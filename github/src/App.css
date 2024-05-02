@@ -1,0 +1,135 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.app-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  
+}
+
+.app-container .Nav {
+  font-size: 25px;
+  font-family: 'Sriracha', cursive;
+  color: white;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 40px 80px;
+  margin-top: flex;
+}
+
+.footer .copy {
+  color: #fff;
+}
+
+.bottom-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.bottom-links .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.bottom-links .links span {
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.bottom-links .links a {
+  text-decoration: none;
+  color: #a1a1a1;
+  padding: 10px 20px;
+}
+
+.githubexplorer {
+  display: flex;
+  flex-direction: column; /* Still keep the overall container vertically aligned */
+  justify-content: center; /* Center everything horizontally */
+  align-items: center; /* Center everything vertically */
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/304/870/385/technology-git-github-hd-wallpaper-preview.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full height of the viewport */
+  width: 100%; /* Full width */
+  color: #ddd;
+  text-align: center; 
+}
+
+.search-container {
+  display: flex; /* Make the search container use flex layout */
+  flex-direction: row; /* Arrange items horizontally */
+  justify-content: center; /* Center the input and button horizontally */
+  align-items: center; /* Align the input and button vertically */
+  gap: 10px; /* Add some space between the input and button */
+}
+
+.githubexplorer input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.githubexplorer button {
+  padding: 10px;
+  background-color: #ddd;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.githubexplorer button:hover {
+  background-color: #ccc;
+}
